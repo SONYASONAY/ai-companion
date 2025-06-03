@@ -29,7 +29,7 @@ They can write freely, and the AI analyzes sentiment and keywords to detect emot
 
 4) Visualize mood over time using graphs
 
-**User Personas**:
+**User Personas**
 
 1) College students
 
@@ -65,7 +65,7 @@ If built as a prototype, it can be done using Python, HuggingFace’s Transforme
 
 To grow, this project could Connect users to verified therapists or hotlines when risk is detected, expand to multiple languages and cultural contexts, partner with mental health NGOs for distribution and add voice interface for accessibility
 
-**Needed skills/help**
+**Needed skills**
 
 Needed skills/help might be UX/UI designer for empathetic interface, NLP engineer for better emotion detection and Legal advisor on data protection laws.
 
