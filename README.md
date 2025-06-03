@@ -78,10 +78,7 @@ Needed skills might be UX/UI designer for empathetic interface, NLP engineer for
 
 ## Acknowledgments
 
-1) Inspired by Woebot, Wysa, and AI based journaling tools
+* Inspired by mood journaling apps like Daylio and Reflectly.
+* [Sentiment140 Dataset](http://help.sentiment140.com/for-students) for initial NLP testing.
+* Sleep and activity tracking ideas from open-source wearables like [Fitbit Web API](https://dev.fitbit.com/build/reference/web-api/).
 
-2) Uses datasets such as GoEmotions by Google or Creative Commons
-
-3) Thanks to OpenAI and HuggingFace for foundational NLP models
-
-4) Building AI course by Reaktor and University of Helsinki
