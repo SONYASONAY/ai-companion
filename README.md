@@ -11,62 +11,47 @@ AI-Companion or AI Wellness Companion is is a mobile first AI assistant that hel
 
 Mental health issues like anxiety, depression, and burnout are widespread yet millions lack access to affordable care or are reluctant to seek help. Especially after the pandemic, isolation and digital overload have worsened this. My motivation stems from personal experience and friends who wished they had someone to talk to regularly without judgment
 
-1) Limited access to affordable mental health services
-
-2) Social stigma preventing people from reaching out
-
-3) Need for consistent, non-intrusive emotional check-ins
-
-4) Lack of tools for tracking mental wellbeing over time
+* Limited access to affordable mental health services
+* Social stigma preventing people from reaching out
+* Need for consistent, non-intrusive emotional check-ins
+* Lack of tools for tracking mental wellbeing over time
 
 ## How is it used?
 
 The app prompts users with a short daily check in
 
-1) “How are you feeling today?”
-2) They can write freely, and the AI analyzes sentiment and keywords to detect emotional states. Based on input, it may
+* “How are you feeling today?”
+* They can write freely, and the AI analyzes sentiment and keywords to detect emotional states. Based on input, it may
 
 Based on responses, the AI
 
-1) Recommend breathing exercises or journal prompts
-
-2) Remind users of positive habits
-
-3) Suggest reaching out to a friend or professional help if distress is detected
-
-4) Visualize mood over time using graphs
+* Recommend breathing exercises or journal prompts
+* Remind users of positive habits
+* Suggest reaching out to a friend or professional help if distress is detected
+* Visualize mood over time using graphs
 
 ## Users
 
-1) College students
-
-2) Remote workers
-
-3) Elderly users living alone
-
-4) Anyone seeking consistent emotional support
+* College students
+* Remote workers
+* Elderly users living alone
+* Anyone seeking consistent emotional support
 
 ## Data sources and AI methods
 
-1) Pre trained NLP models like BERT, RoBERTa, or OpenAI’s GPT for conversation
-
-2) Emotion detection datasets like GoEmotions
-
-3) Sentiment analysis using transformers + fine tuning
-
-4) Simple time series analysis for visualizing mood trends
+* Pre trained NLP models like BERT, RoBERTa, or OpenAI’s GPT for conversation
+* Emotion detection datasets like GoEmotions
+* Sentiment analysis using transformers + fine tuning
+* Simple time series analysis for visualizing mood trends
 
 If built as a prototype, it can be done using Python, HuggingFace’s Transformers, Streamlit for UI, and SQLite for mood logs
 
 ## Challenges
 
-1) It does not replace a human therapist ethical disclaimers must be clear
-
-2) Misinterpretation of ambiguous input
-
-4) Requires data privacy and encryption people share sensitive data
-
-5) Potential dependence on the chatbot for emotional validation
+* It does not replace a human therapist ethical disclaimers must be clear
+* Misinterpretation of ambiguous input
+* Requires data privacy and encryption people share sensitive data
+* Potential dependence on the chatbot for emotional validation
 
 ## What next?
 
@@ -78,7 +63,8 @@ Needed skills might be UX/UI designer for empathetic interface, NLP engineer for
 
 ## Acknowledgments
 
-* Inspired by mood journaling apps like Daylio and Reflectly.
-* [Sentiment140 Dataset](http://help.sentiment140.com/for-students) for initial NLP testing.
-* Sleep and activity tracking ideas from open-source wearables like [Fitbit Web API](https://dev.fitbit.com/build/reference/web-api/).
+* Inspired by mood journaling apps like Daylio, Woebot, Wysaand and Reflectly
+* Uses datasets such as GoEmotions by Google or Creative Commons
+* Thanks to OpenAI and HuggingFace for foundational NLP models
+* Sleep and activity tracking ideas from open-source wearables like [Fitbit Web API](https://dev.fitbit.com/build/reference/web-api/)
 
