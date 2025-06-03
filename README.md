@@ -1,10 +1,13 @@
-# ai-companion
+# AI Wellness Companion
 
-**Summary**
+Building AI course project
 
-AI-Companion is a supportive chatbot designed to provide early stage mental health support and daily check ins using natural language understanding. It does not replace therapy, but offers a safe space for conversations, habit tracking, and emotional awareness
+## Summary
 
-**Background**
+AI-Companion or AI Wellness Companion is is a mobile first AI assistant that helps people track and improve their mental well being through daily mood logging, habit suggestions, and early detection of signs of stress, anxiety, or burnout.  
+**Building AI course project**
+
+## Background
 
 Mental health issues like anxiety, depression, and burnout are widespread yet millions lack access to affordable care or are reluctant to seek help. Especially after the pandemic, isolation and digital overload have worsened this. My motivation stems from personal experience and friends who wished they had someone to talk to regularly without judgment
 
@@ -16,10 +19,14 @@ Mental health issues like anxiety, depression, and burnout are widespread yet mi
 
 4) Lack of tools for tracking mental wellbeing over time
 
-**How is it used?**
+## How is it used?
 
-The AI-Companion works through a simple chat interface like mobile or web. Users are greeted daily with a check in prompt like “How are you feeling today?”
-They can write freely, and the AI analyzes sentiment and keywords to detect emotional states. Based on input, it may
+The app prompts users with a short daily check in
+
+1) “How are you feeling today?”
+2) They can write freely, and the AI analyzes sentiment and keywords to detect emotional states. Based on input, it may
+
+Based on responses, the AI
 
 1) Recommend breathing exercises or journal prompts
 
@@ -29,7 +36,7 @@ They can write freely, and the AI analyzes sentiment and keywords to detect emot
 
 4) Visualize mood over time using graphs
 
-**User Personas**
+## Users
 
 1) College students
 
@@ -39,7 +46,7 @@ They can write freely, and the AI analyzes sentiment and keywords to detect emot
 
 4) Anyone seeking consistent emotional support
 
-**Data sources and AI methods**
+## Data sources and AI methods
 
 1) Pre trained NLP models like BERT, RoBERTa, or OpenAI’s GPT for conversation
 
@@ -51,7 +58,7 @@ They can write freely, and the AI analyzes sentiment and keywords to detect emot
 
 If built as a prototype, it can be done using Python, HuggingFace’s Transformers, Streamlit for UI, and SQLite for mood logs
 
-**Challenges**
+## Challenges
 
 1) It does not replace a human therapist ethical disclaimers must be clear
 
@@ -61,15 +68,15 @@ If built as a prototype, it can be done using Python, HuggingFace’s Transforme
 
 5) Potential dependence on the chatbot for emotional validation
 
-**What next?**
+## What next?
 
 To grow, this project could Connect users to verified therapists or hotlines when risk is detected, expand to multiple languages and cultural contexts, partner with mental health NGOs for distribution and add voice interface for accessibility
 
-**Needed skills**
+## Needed skills
 
 Needed skills might be UX/UI designer for empathetic interface, NLP engineer for better emotion detection and Legal advisor on data protection laws
 
-**Acknowledgments**
+## Acknowledgments
 
 1) Inspired by Woebot, Wysa, and AI based journaling tools
 
